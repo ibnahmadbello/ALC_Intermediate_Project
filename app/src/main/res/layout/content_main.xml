@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn= "@layout/activity_main2">
+    tools:showIn= "@layout/activity_main2"
+    android:gravity="center"
+    android:background="#CDDC39">
 
     <ImageView
         android:id="@+id/profile_photo"
@@ -16,7 +18,7 @@
         android:layout_below="@id/profile_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Username:"/>
+        android:text="Username: "/>
 
     <TextView
         android:id="@+id/username"
@@ -30,7 +32,7 @@
         android:layout_below="@id/username_tag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Github Profile URL:"/>
+        android:text="Github Profile URL: "/>
 
     <TextView
         android:id="@+id/profile_url"
@@ -38,5 +40,6 @@
         android:layout_toRightOf="@id/profile_url_tag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
 
 </RelativeLayout>
