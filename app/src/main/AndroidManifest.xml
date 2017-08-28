@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.practice.ayrash.alc_intermediate_project">
 
+    <supports-screens
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"/>
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
