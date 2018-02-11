@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#CDDC39"
     tools:context="com.practice.ayrash.alc_intermediate_project.MainActivity">
-
+    
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"

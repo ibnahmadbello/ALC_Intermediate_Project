@@ -64,8 +64,7 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view){
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Check out this awesome developer @");
-                shareIntent.putExtra(Intent.EXTRA_TEXT, user.getLogin());
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Check out this awesome developer @" + user.getLogin());
                 shareIntent.putExtra(Intent.EXTRA_TEXT, user.getHtmlUrl());
                 if (shareIntent.resolveActivity(getPackageManager()) != null) {
                     startActivity(shareIntent);
